@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Assignment: One HTML and CSS
 
 For this assignment, you will clone Dr. John Monberg's wra410 repository.
@@ -32,3 +33,7 @@ Revise the following section in your README.md file with a short description of 
 * 89-80 points: You accomplish all of the required changes.
 
 * 79-70 points: You don't accomplish all of the required changes
+=======
+# WRA-Assignment-One
+Course Site Rework
+>>>>>>> a653bb95e720d26bf0b7d6d8c17e4e1ee65a220d
