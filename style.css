@@ -1,11 +1,11 @@
 body {
-    background-color: #EEE;
-    font-family: 'Sarabun',Helvetica, Arial, sans-serif;
+    background-color: #18453b;
+    font-family: 'Verdana',Helvetica, Arial, sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #B23333;
+  color: #cb5a28;
 }
 
 h1, h2, h3  {
@@ -14,17 +14,18 @@ h1, h2, h3  {
 }
 
 #container {
-    background-color: white;
+    background-color: #fffff2;
     width: 1000px;
     margin-left: auto;
     margin-right:auto;
 }
 
 #header {
-    background-color: #18453B;
-    color: white;
+    background-color: #97a2a2;
+    color: #18453b;
     text-align: center;
     padding: 10px;
+    font-family: 'Palatino',Helvetica, Arial, sans-serif;
 }
 
 #content {
@@ -35,6 +36,7 @@ h1, h2, h3  {
   width: 150px;
   float: left;
   padding: 20px;
+  background-color: #fffff2;
 }
 
 #nav ul {
@@ -53,14 +55,63 @@ h1, h2, h3  {
 
 }
 
+#contactimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  float: center;
+}
+
 #student-group {
   clear: both;
   margin: 20px;
   border: 20px;
   padding: 10px;
-  background-color:  #d3d3d3;
+  background-color:  #fffff2;
   color: black;
   text-align: left;
+}
+#student-group {
+  font-family: "Verdana", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 600px;
+}
+
+#student-group td, #student-group th {
+  border: 1px solid #fffff2;
+  padding: 8px;
+}
+
+#student-group tr:nth-child(even){background-color: #97a2a2;}
+
+#student-group th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #18453b;
+  color: white;
+}
+
+#grades {
+  font-family: "Verdana", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 600px;
+}
+
+#grades td, #grades th {
+  border: 1px solid #fffff2;
+  padding: 8px;
+}
+
+#grades tr:nth-child(even){background-color: #97a2a2;}
+
+#grades th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #18453b;
+  color: white;
 }
 
 #footer {
@@ -70,6 +121,8 @@ h1, h2, h3  {
   color: white;
   text-align: right;
 }
+
+
 .schedule-date {
   font-weight: bold;
   color: black;
